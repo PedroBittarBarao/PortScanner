@@ -23,8 +23,6 @@ def port_scan(port):
  
  
 start = time.time()
- 
-# here we are scanning port 0 to 4
 for port in range(port_start, port_end+1):
     if port_scan(port):
         print(f'port {port} is open ({ports_dict.get(port, "unknown")})')
