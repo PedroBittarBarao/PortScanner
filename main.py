@@ -32,4 +32,4 @@ for port in range(port_start, port_end+1):
         print(f'port {port} is closed ({ports_dict.get(port, "unknown")})')
  
 end = time.time()
-print(f'Time taken {end-start:.2f} seconds')
+print(f'Time: {end-start:.2f} seconds')
